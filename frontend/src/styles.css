@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  height: 100%;
+}
+
+.glass {
+  background: rgba(30, 41, 59, 0.55);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+.no-scrollbar::-webkit-scrollbar { width: 0px; height: 0px; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
