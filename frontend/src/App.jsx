@@ -24,6 +24,32 @@ const Protected = ({ children }) => {
   return children
 }
 
+class RouteErrorBoundary extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = { hasError: false, message: '' }
+  }
+  static getDerivedStateFromError(err) {
+    return { hasError: true, message: err?.message || 'Unknown error' }
+  }
+  render() {
+    if (this.state.hasError) {
+      return (
+        <div className="mx-auto max-w-3xl px-4 py-12">
+          <div className="glass-strong rounded-3xl p-6">
+            <div className="text-xs font-semibold tracking-widest uppercase text-white/55">Render error</div>
+            <div className="mt-3 text-2xl font-semibold">This page crashed.</div>
+            <div className="mt-2 text-sm text-white/70">{this.state.message}</div>
+            <div className="mt-5 text-sm text-white/60">Navigate to another tab; the route will continue to work after the underlying error is fixed.</div>
+          </div>
+        </div>
+      )
+    }
+    return this.props.children
+  }
+}
+
+
 
 export default function App() {
   const location = useLocation()
