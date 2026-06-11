@@ -1,0 +1,43 @@
+Slide 1 – Cover Page
+
+Hello everyone. My name is Atanu Banerjee from the Department of Computer Science and Engineering, Techno India University. In this presentation, I will be introducing MindEase, a Student Mental Wellness Platform developed in alignment with SDG 3: Good Health and Well-being.
+
+Slide 2 – SDG Identification
+
+SDG 3 focuses on ensuring healthy lives and promoting well-being for all. Our project specifically addresses student mental health by helping individuals monitor stress, improve emotional awareness, and maintain a healthier lifestyle.
+
+Slide 3 – Problem Definition
+
+Today, many students face academic pressure, stress, anxiety, and burnout. These challenges often affect their concentration, productivity, and overall well-being. Unfortunately, there are very few simple and accessible tools that help students regularly monitor their mental health.
+
+Slide 4 – Proposed Solution
+
+To address this issue, we developed MindEase, a student-focused mental wellness platform. It allows users to track their mood, assess stress levels, monitor healthy habits, receive personalized recommendations, and access mental health support resources.
+
+Slide 5 – Key Features
+
+The main features of MindEase include a Mood Tracker for recording daily emotions, a Stress Assessment Quiz for identifying stress levels, a Habit Tracker for monitoring healthy activities, a Wellness Recommendation Engine, a Motivation Center, and an Emergency Support section.
+
+Slide 6 – System Workflow
+
+The workflow is simple and user-friendly. Students first provide their mood and stress-related information. The system then analyzes the data and generates personalized recommendations, helping users improve their mental well-being through regular monitoring and healthy habits.
+
+Slide 7 – Live Demo
+
+Now I will briefly demonstrate the platform. The demo includes user registration and login, mood tracking, stress assessment, wellness recommendations, habit tracking, and the emergency support section.
+
+Slide 8 – Tech Stack & Feasibility Analysis
+
+MindEase is developed using React, Tailwind CSS, FastAPI, and Local Storage. The project is technically feasible, cost-effective, and easy to deploy. Since it uses open-source technologies, it requires minimal resources while providing an efficient user experience.
+
+Slide 9 – Innovation Factor
+
+What makes MindEase unique is that it combines multiple wellness tools into a single platform specifically designed for students. By integrating mood tracking, stress assessment, habit monitoring, and personalized recommendations, it provides a comprehensive approach to mental wellness.
+
+Slide 10 – Impact & Future Scope
+
+MindEase can help students identify stress at an early stage, improve emotional awareness, and develop healthier daily habits. In the future, the platform can be enhanced with AI-powered counseling, emotion detection, therapist integration, and mobile application support.
+
+Slide 11 – References & Thank You
+
+The project was developed using insights from the World Health Organization, United Nations SDG resources, and mental health research studies. Thank you for your time and attention. I hope you found this presentation informative. Have a great day.
